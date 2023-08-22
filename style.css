@@ -2,3 +2,23 @@ html {
   height: 100%;
   width: 100%;
 }
+
+
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containers article img {
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.containers article {
+  width: 50%;
+}
